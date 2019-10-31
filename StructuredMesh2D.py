@@ -458,12 +458,12 @@ def get_mass_matrix(mesh: Mesh, type0: int, type1: int) -> csr_matrix:
 
 
 @vectorize([float64(int32)])
-def _is_positive(a: int):
+def _is_positive(a):
     return 1.0 if a >= 0 else 0.0
 
 
 @vectorize([int32(int32)])
-def _replace_negative(a: int):
+def _replace_negative(a):
     return a if a >= 0 else 0
 
 
