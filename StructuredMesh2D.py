@@ -170,7 +170,6 @@ class Variable:
     def reset_data(self):
         self.data = np.zeros(self.data.shape)
 
-
     def check_positiveness(self, epsilon=1.0e-5):
         """
             If the coefficients (matrix) are positive (difined),
@@ -457,12 +456,14 @@ def get_mass_matrix(mesh: Mesh, type0: int, type1: int) -> csr_matrix:
     return s
 
 
-@vectorize([float64(int32)])
+# @vectorize([float64(int32)])
+@np.vectorize
 def _is_positive(a):
     return 1.0 if a >= 0 else 0.0
 
 
-@vectorize([int32(int32)])
+# @vectorize([int32(int32)])
+@np.vectorize
 def _replace_negative(a):
     return a if a >= 0 else 0
 
