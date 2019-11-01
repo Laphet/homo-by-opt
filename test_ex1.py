@@ -93,7 +93,7 @@ for j in range(coarse_mesh.elem_count):
     B[:, j], info = LSolver(stiff_mat_ff, B[:, j])
     if (j % coarse_mesh.M == coarse_mesh.M-1):
         batch_end = time.time()
-        logging.info("\tBatch %d/%d completed, consuming time=%.3fs.",
+        logging.info("\tBatch %d/%d completed, consuming time=%.3fs;",
                      j//coarse_mesh.M+1, coarse_mesh.M, batch_end-batch_start)
         batch_start = time.time()
 
