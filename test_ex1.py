@@ -20,7 +20,7 @@ logging.basicConfig(filename='ycq-'+NOW.strftime("%m-%d-%Y-%H-%M-%S")+'.log',
 logging.info("Go Go Go!")
 base_grid = 2
 refine_num = 2
-LSolver = gmres
+LSolver = cg
 
 try:
     if (len(sys.argv) >= 2):
