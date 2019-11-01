@@ -1,6 +1,6 @@
 from StructuredMesh2D import Mesh, Variable, get_mass_matrix_opt, get_stiffness_matrix_opt
 import numpy as np
-from scipy.sparse.linalg import cg
+from scipy.sparse.linalg import cg, gmres
 import time
 import datetime
 import logging
@@ -20,7 +20,7 @@ logging.basicConfig(filename='ycq-'+NOW.strftime("%m-%d-%Y-%H-%M-%S")+'.log',
 logging.info("Go Go Go!")
 base_grid = 2
 refine_num = 2
-LSolver = cg
+LSolver = gmres
 
 try:
     if (len(sys.argv) >= 2):
