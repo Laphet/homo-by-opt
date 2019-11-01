@@ -456,14 +456,14 @@ def get_mass_matrix(mesh: Mesh, type0: int, type1: int) -> csr_matrix:
     return s
 
 
-# @vectorize([float64(int32)])
-@np.vectorize
+@vectorize([float64(int32)])
+# @np.vectorize
 def _is_positive(a):
     return 1.0 if a >= 0 else 0.0
 
 
-# @vectorize([int32(int32)])
-@np.vectorize
+@vectorize([int32(int32)])
+# @np.vectorize
 def _replace_negative(a):
     return a if a >= 0 else 0
 
