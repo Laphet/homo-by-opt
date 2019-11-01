@@ -34,6 +34,8 @@ except:
     base_grid = 16
     refine_num = 32
 
+logging.info("Use parameters base_grid=%d, refine_num=%d.",
+             base_grid, refine_num)
 
 coarse_mesh = Mesh(base_grid)
 fine_mesh = coarse_mesh.get_refined_mesh(refine_num)
@@ -99,5 +101,7 @@ end = time.time()
 logging.info("Finishing constructing Mat B, consuming time=%.3fs.", end-start)
 
 diff = stiff_mat_cc.toarray().dot(A.dot(B)) - mass_mat_c2c0.toarray()
-logging.info("The relative difference in 2-norm is%.5f.",
+logging.info("The absolute difference in 2-norm=%.5f.",
+             np.linalg.norm(diff, ord=2))
+logging.info("The relative difference in 2-norm=%.5f.",
              np.linalg.norm(diff, ord=2)/np.linalg.norm(mass_mat_c2c0.toarray(), ord=2))
