@@ -1,6 +1,6 @@
 from StructuredMesh2D import Mesh, Variable, get_mass_matrix_opt, get_stiffness_matrix_opt
 import numpy as np
-from scipy.sparse.linalg import cg, gmres, spsolve, LinearOperator
+from scipy.sparse.linalg import cg, gmres, spsolve, LinearOperator, spilu
 from scipy.sparse import csr_matrix
 import time
 import datetime
@@ -9,14 +9,9 @@ import sys
 
 
 def _get_preconditioner(op: csr_matrix):
-    assert (op.shape[0] == op.shape[1])
-    N = op.shape[0]
-    diagonal_mat = csr_matrix(
-        (op.diagonal(), (np.arange(N), np.arange(N))), shape=(N, N))
-
-    def M_x(x): return spsolve(diagonal_mat, x)
-    M = LinearOperator((N, N), M_x)
-    return M
+    M = spilu(op.tocsc())
+    def Mx(x): return M.solve(x)
+    return LinearOperator(op.shape, Mx)
 
 
 base_grid = 2
@@ -90,6 +85,7 @@ for i in range(coarse_mesh.inner_node_count):
     mass_mat_c2f2[i, :] = mass_mat_f2f2.dot(_base_c2_refined.data)
 A = np.zeros(mass_mat_c2f2.shape)
 for j in range(fine_mesh.inner_node_count):
+    # A[:, j], info = LSolver(mass_mat_c2c2, mass_mat_c2f2[:, j])
     A[:, j], info = LSolver(mass_mat_c2c2, mass_mat_c2f2[:, j], M=pre_cc)
 end = time.time()
 logging.info("Finishing constructing Mat A, consuming time=%.3fs.", end-start)
