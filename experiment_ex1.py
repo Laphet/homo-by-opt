@@ -21,6 +21,11 @@ x = np.linspace(0.9, 3.0, num=211)
 y = np.linspace(-2.1, 2.1, num=421)
 XX, YY = np.meshgrid(x, y)
 data = np.zeros(XX.shape)
+stiff_diff = np.zeros(XX.shape)
+
+co = Variable(coarse_mesh, Variable.TYPE_DIC["zero-order"])
+co.data = np.ones(co.data.shape)
+stiff_real = get_stiffness_matrix_opt(co)
 
 for i in range(XX.shape[0]):
     for j in range(XX.shape[1]):
@@ -32,17 +37,10 @@ for i in range(XX.shape[0]):
             stiff_mat_cc = get_stiffness_matrix_opt(co).toarray()
             data[i, j] = np.linalg.norm(np.matmul(
                 stiff_mat_cc, mat_AB)-mass_mat_c2c0, ord=2)
+            stiff_diff[i, j] = np.linalg.norm(stiff_mat_cc-stiff_real, ord=2)
         else:
             data[i, j] = -1.0
+            stiff_diff[i, j] = -1.0
 
 np.save("data/error.npy", arr=data)
-
-fig = plt.figure()
-ax = fig.add_subplot(1, 1, 1)
-ax.set_aspect('equal', 'box')
-_max, _min = np.max(data), np.min(data)
-levels = MaxNLocator(nbins=15).tick_values(-1.0e-5, _max)
-cf = ax.contourf(XX, YY, data, levels=levels,
-                 cmap="viridis", vmin=_min, vmax=_max)
-fig.colorbar(cf, ax=ax)
-plt.savefig("fig/exp_ex1.png")
+np.save("data/stiff_diff.npy", arr=stiff_diff)
