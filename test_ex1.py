@@ -124,11 +124,23 @@ for j in range(coarse_mesh.elem_count):
 
 end = time.time()
 logging.info("Finishing constructing Mat B, consuming time=%.3fs.", end-start)
+C = np.zeros((coarse_mesh.inner_node_count, coarse_mesh.elem_count))
+for j in range(coarse_mesh.elem_count):
+    _base_c0 = Variable(coarse_mesh, Variable.TYPE_DIC["zero-order"])
+    _base_c0.data[j] = 1.0
+    C[:, j] = mass_mat_c2c0.dot(_base_c0.data)
+    C[:, j], info = LSolver(stiff_mat_cc, C[:, j])
+
+
 mat_AB = np.matmul(A, B)
 diff = np.matmul(stiff_mat_cc.toarray(), mat_AB) - mass_mat_c2c0.toarray()
 with open("data/"+cfg+"-mat-AB.npy", "w") as f:
     np.save(f.name, arr=mat_AB)
+with open("data/"+cfg+"-mat-C.npy", "w") as f:
+    np.save(f.name, arr=C)
 logging.info("The absolute difference in 2-norm=%.5f.",
              np.linalg.norm(diff, ord=2))
+logging.info("The U_H difference in 2-norm=%.5f.",
+             np.linalg.norm(mat_AB-C, ord=2))
 logging.info("The relative difference in 2-norm=%.5f.",
              np.linalg.norm(diff, ord=2)/np.linalg.norm(mass_mat_c2c0.toarray(), ord=2))
