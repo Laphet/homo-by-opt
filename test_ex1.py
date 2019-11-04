@@ -138,6 +138,10 @@ with open("data/"+cfg+"-mat-AB.npy", "w") as f:
     np.save(f.name, arr=mat_AB)
 with open("data/"+cfg+"-mat-C.npy", "w") as f:
     np.save(f.name, arr=C)
+with open("data/"+cfg+"-mat-A.npy", "w") as f:
+    np.save(f.name, arr=A)
+with open("data/"+cfg+"-mat-B.npy", "w") as f:
+    np.save(f.name, arr=B)
 logging.info("The absolute difference in 2-norm=%.5f.",
              np.linalg.norm(diff, ord=2))
 logging.info("The U_H difference in 2-norm=%.5f.",
