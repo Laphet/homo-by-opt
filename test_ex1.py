@@ -30,7 +30,7 @@ except:
     base_grid = 16
     refine_num = 32
 
-cfg = "b{0:d}r{1:d}".format(base_grid, refine_num)
+cfg = "b{0:d}r{1:d}{2:s}".format(base_grid, refine_num, LSolver.__name__)
 LOG_FORMAT = "%(asctime)s %(levelname)s \t%(message)s"
 DATE_FORMAT = "%m/%d/%Y %H:%M:%S"
 
@@ -39,8 +39,8 @@ logging.basicConfig(filename="log/"+cfg+NOW.strftime("-%m-%d-%Y-%H-%M-%S")+'.log
                     level=logging.INFO,
                     format=LOG_FORMAT,
                     datefmt=DATE_FORMAT)
-logging.info("Go Go Go! with config base_grid=%d, refine_num=%d.",
-             base_grid, refine_num)
+logging.info("Go Go Go! with config base_grid=%d, refine_num=%d, solver=%s.",
+             base_grid, refine_num, LSolver.__name__)
 
 coarse_mesh = Mesh(base_grid)
 fine_mesh = coarse_mesh.get_refined_mesh(refine_num)
@@ -86,24 +86,41 @@ for i in range(coarse_mesh.inner_node_count):
 A = np.zeros(mass_mat_c2f2.shape)
 for j in range(fine_mesh.inner_node_count):
     # A[:, j], info = LSolver(mass_mat_c2c2, mass_mat_c2f2[:, j])
-    A[:, j], info = LSolver(mass_mat_c2c2, mass_mat_c2f2[:, j], M=pre_cc)
+    A[:, j], info = LSolver(mass_mat_c2c2, mass_mat_c2f2[:, j])
+    if (info > 0):
+        logging.critical("Solver fails, iteration num=%d.", info)
+        raise RuntimeError
+    elif (info < 0):
+        logging.critical("Invaild input.")
+        raise ValueError
 end = time.time()
 logging.info("Finishing constructing Mat A, consuming time=%.3fs.", end-start)
 
 start = time.time()
 B = np.zeros((fine_mesh.inner_node_count, coarse_mesh.elem_count))
 batch_start = time.time()
+solver_consuming_time = 0.0
 for j in range(coarse_mesh.elem_count):
     _base_c0 = Variable(coarse_mesh, Variable.TYPE_DIC["zero-order"])
     _base_c0.data[j] = 1.0
     _base_c0_refined = _base_c0.project_to_refined_mesh(refine_num)
     B[:, j] = mass_mat_f2f0.dot(_base_c0_refined.data)
-    B[:, j], info = LSolver(stiff_mat_ff, B[:, j], M=pre_ff)
+    solver_start = time.time()
+    B[:, j], info = LSolver(stiff_mat_ff, B[:, j])
+    solver_end = time.time()
+    solver_consuming_time += (solver_end - solver_start)
+    if (info > 0):
+        logging.critical("Solver fails, iteration num=%d.", info)
+        raise RuntimeError
+    elif (info < 0):
+        logging.critical("Invaild input.")
+        raise ValueError
     if (j % coarse_mesh.M == coarse_mesh.M-1):
         batch_end = time.time()
-        logging.info("\tBatch %d/%d completed, consuming time=%.3fs;",
-                     j//coarse_mesh.M+1, coarse_mesh.M, batch_end-batch_start)
+        logging.info("\tBatch %d/%d completed, consuming time=%.3fs, solver consuming time=%.3fs;",
+                     j//coarse_mesh.M+1, coarse_mesh.M, batch_end-batch_start, solver_consuming_time)
         batch_start = time.time()
+        solver_consuming_time = 0.0
 
 end = time.time()
 logging.info("Finishing constructing Mat B, consuming time=%.3fs.", end-start)
