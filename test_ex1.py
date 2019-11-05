@@ -83,6 +83,8 @@ for i in range(coarse_mesh.inner_node_count):
     _base_c2.data[i] = 1.0
     _base_c2_refined = _base_c2.project_to_refined_mesh(refine_num)
     mass_mat_c2f2[i, :] = mass_mat_f2f2.dot(_base_c2_refined.data)
+with open("data/"+cfg+"-mat-c2f2.npy", "w") as f:
+    np.save(f.name, arr=mass_mat_c2f2)
 A = np.zeros(mass_mat_c2f2.shape)
 for j in range(fine_mesh.inner_node_count):
     # A[:, j], info = LSolver(mass_mat_c2c2, mass_mat_c2f2[:, j])
