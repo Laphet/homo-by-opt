@@ -75,6 +75,7 @@ end = time.time()
 logging.info(
     "Finishing constructing Mats needed, consuming time=%.3fs.", end-start)
 
+"""
 mass_mat_c2f2 = np.zeros(
     (coarse_mesh.inner_node_count, fine_mesh.inner_node_count))
 start = time.time()
@@ -89,6 +90,31 @@ A = np.zeros(mass_mat_c2f2.shape)
 for j in range(fine_mesh.inner_node_count):
     # A[:, j], info = LSolver(mass_mat_c2c2, mass_mat_c2f2[:, j])
     A[:, j], info = LSolver(mass_mat_c2c2, mass_mat_c2f2[:, j])
+    if (info > 0):
+        logging.critical("Solver fails, iteration num=%d.", info)
+        raise RuntimeError
+    elif (info < 0):
+        logging.critical("Invaild input.")
+        raise ValueError
+end = time.time()
+logging.info("Finishing constructing Mat A, consuming time=%.3fs.", end-start)
+"""
+mass_mat_c2f2_R = np.zeros(
+    (coarse_mesh.inner_node_count, fine_mesh.inner_node_count))
+start = time.time()
+H = 1.0 / float(coarse_mesh.M)
+for i in range(coarse_mesh.inner_node_count):
+    _base_c2 = Variable(coarse_mesh, Variable.TYPE_DIC["first-order-zeroBC"])
+    _base_c2.data[i] = 1.0 / H / H
+    _base_c2_refined = _base_c2.project_to_refined_mesh(refine_num)
+    mass_mat_c2f2_R[i, :] = mass_mat_f2f2.dot(_base_c2_refined.data)
+with open("data/"+cfg+"-mat-c2f2-R.npy", "w") as f:
+    np.save(f.name, arr=mass_mat_c2f2_R)
+A = np.zeros(mass_mat_c2f2_R.shape)
+op = mass_mat_c2c2 / (H * H)
+for j in range(fine_mesh.inner_node_count):
+    # A[:, j], info = LSolver(mass_mat_c2c2, mass_mat_c2f2[:, j])
+    A[:, j], info = LSolver(op, mass_mat_c2f2_R[:, j])
     if (info > 0):
         logging.critical("Solver fails, iteration num=%d.", info)
         raise RuntimeError
