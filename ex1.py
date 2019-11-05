@@ -12,7 +12,7 @@ def _co(a: float, b: float):
 
 base_grid = 16
 coarse_mesh = Mesh(base_grid)
-mat_AB = np.load("data/b16r32cg-mat-C.npy")
+mat_AB = np.load("data/b16r32cg-mat-AB.npy")
 mass_mat_c2c0 = get_mass_matrix_opt(coarse_mesh,
                                     Variable.TYPE_DIC["first-order-zeroBC"],
                                     Variable.TYPE_DIC["zero-order"]).toarray()
