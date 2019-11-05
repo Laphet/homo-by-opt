@@ -7,12 +7,12 @@ import datetime
 import logging
 import sys
 
-
+"""
 def _get_preconditioner(op: csr_matrix):
     M = spilu(op.tocsc())
     def Mx(x): return M.solve(x)
     return LinearOperator(op.shape, Mx)
-
+"""
 
 base_grid = 2
 refine_num = 2
@@ -53,8 +53,10 @@ co_on_coarse_mesh.data = np.ones(co_on_coarse_mesh.data.shape)
 start = time.time()
 stiff_mat_ff = get_stiffness_matrix_opt(co_on_fine_mesh)
 stiff_mat_cc = get_stiffness_matrix_opt(co_on_coarse_mesh)
+"""
 pre_ff = _get_preconditioner(stiff_mat_ff)
 pre_cc = _get_preconditioner(stiff_mat_cc)
+"""
 
 mass_mat_f2f2 = get_mass_matrix_opt(fine_mesh,
                                     Variable.TYPE_DIC["first-order-zeroBC"],
@@ -123,6 +125,8 @@ for j in range(fine_mesh.inner_node_count):
         raise ValueError
 end = time.time()
 logging.info("Finishing constructing Mat A, consuming time=%.3fs.", end-start)
+with open("data/"+cfg+"-mat-A.npy", "w") as f:
+    np.save(f.name, arr=A)
 
 start = time.time()
 B = np.zeros((fine_mesh.inner_node_count, coarse_mesh.elem_count))
@@ -152,24 +156,23 @@ for j in range(coarse_mesh.elem_count):
 
 end = time.time()
 logging.info("Finishing constructing Mat B, consuming time=%.3fs.", end-start)
+with open("data/"+cfg+"-mat-B.npy", "w") as f:
+    np.save(f.name, arr=B)
+
 C = np.zeros((coarse_mesh.inner_node_count, coarse_mesh.elem_count))
 for j in range(coarse_mesh.elem_count):
     _base_c0 = Variable(coarse_mesh, Variable.TYPE_DIC["zero-order"])
     _base_c0.data[j] = 1.0
     C[:, j] = mass_mat_c2c0.dot(_base_c0.data)
     C[:, j], info = LSolver(stiff_mat_cc, C[:, j])
-
-
-mat_AB = np.matmul(A, B)
-diff = np.matmul(stiff_mat_cc.toarray(), mat_AB) - mass_mat_c2c0.toarray()
-with open("data/"+cfg+"-mat-AB.npy", "w") as f:
-    np.save(f.name, arr=mat_AB)
 with open("data/"+cfg+"-mat-C.npy", "w") as f:
     np.save(f.name, arr=C)
-with open("data/"+cfg+"-mat-A.npy", "w") as f:
-    np.save(f.name, arr=A)
-with open("data/"+cfg+"-mat-B.npy", "w") as f:
-    np.save(f.name, arr=B)
+
+mat_AB = np.matmul(A, B)
+with open("data/"+cfg+"-mat-AB.npy", "w") as f:
+    np.save(f.name, arr=mat_AB)
+
+diff = np.matmul(stiff_mat_cc.toarray(), mat_AB) - mass_mat_c2c0.toarray()
 logging.info("The absolute difference in 2-norm=%.5f.",
              np.linalg.norm(diff, ord=2))
 logging.info("The U_H difference in 2-norm=%.5f.",
