@@ -197,7 +197,6 @@ if __name__ == "__main__":
     def func0(x, y, args=None): return 4.0+np.cos(x*16.0*PI)+np.sin(y*16.0*PI)
     refine_co = Variable(refine_mesh, Variable.TYPE_DIC["zero-order"])
     refine_co.evaluation_data_by_func(func0)
-    refine_co.get_plot("fig/refine_co.png")
     opt = EllipticCoeffOpt(coarse_mesh, refine_co)
     refine_stiff_mat = get_stiffness_matrix_opt(refine_co)
     refine_rhs_mass_mat = get_mass_matrix_opt(
@@ -214,4 +213,4 @@ if __name__ == "__main__":
         opt.add_homo_solution_ref(refine_solution, source_term)
     A_homo, obj_val = opt.opt_routine()
     co_homo = opt.get_co_var_from_vec(A_homo)
-    A_homo.get_plot("fig/homo_co_0.png", component=0)
+    np.save("data/homo_co.npy", co_homo.data)
