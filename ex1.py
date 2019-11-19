@@ -1,46 +1,57 @@
 import numpy as np
-import matplotlib.pyplot as plt
 from StructuredMesh2D import Mesh, Variable, get_stiffness_matrix_opt, get_mass_matrix_opt
-from matplotlib.ticker import MaxNLocator
+from scipy.sparse.linalg import cg
 
 
-def _co(a: float, b: float):
-    def func0(x, y): return a
-    def func1(x, y): return b
-    return func0, func1
+def co(x: float, y: float, args=None):
+    if (np.abs(y % 0.1-0.05) < 0.01):
+        return 100.0
+    elif (np.abs(x % 0.1-0.05) < 0.01):
+        return 100.0
+    else:
+        return 1.0
 
 
-base_grid = 16
-coarse_mesh = Mesh(base_grid)
-mat_AB = np.load("data/b16r32cg-mat-AB.npy")
-mass_mat_c2c0 = get_mass_matrix_opt(coarse_mesh,
-                                    Variable.TYPE_DIC["first-order-zeroBC"],
-                                    Variable.TYPE_DIC["zero-order"]).toarray()
-
-x = np.linspace(0.9, 3.0, num=211)
-y = np.linspace(-2.1, 2.1, num=421)
-XX, YY = np.meshgrid(x, y)
-data = np.zeros(XX.shape)
-stiff_diff = np.zeros(XX.shape)
-
-co = Variable(coarse_mesh, Variable.TYPE_DIC["zero-order"])
-co.data = np.ones(co.data.shape)
-stiff_real = get_stiffness_matrix_opt(co)
-
-for i in range(XX.shape[0]):
-    for j in range(XX.shape[1]):
-        if (XX[i, j]+YY[i, j] >= 0.9 and XX[i, j]-YY[i, j] >= 0.9):
-            co = Variable(coarse_mesh, Variable.TYPE_DIC["zero-order-matrix"])
-            func0, func1 = _co(XX[i, j], YY[i, j])
-            co.evaluation_data_by_func(
-                None, func0=func0, func1=func0, func2=func1)
-            stiff_mat_cc = get_stiffness_matrix_opt(co).toarray()
-            data[i, j] = np.linalg.norm(np.matmul(
-                stiff_mat_cc, mat_AB)-mass_mat_c2c0, ord=2)
-            stiff_diff[i, j] = np.linalg.norm(stiff_mat_cc-stiff_real, ord=2)
+def f(x: float, y: float, flag: int):
+    if (flag == 0):
+        return 1.0
+    elif (flag == 1):
+        if (0.1 < x < 0.9 and 0.1 < y < 0.9):
+            return 1.0 / 0.8 / 0.8
         else:
-            data[i, j] = -1.0
-            stiff_diff[i, j] = -1.0
+            return 0.0
+    else:
+        if (x < 0.5 and y < 0.5):
+            return 4.0
+        else:
+            return 0.0
 
-np.save("data/error.npy", arr=data)
-np.save("data/stiff_diff.npy", arr=stiff_diff)
+
+mesh = Mesh(512)
+
+co_var = Variable(mesh, Variable.TYPE_DIC["zero-order"])
+co_var.evaluation_data_by_func(co)
+
+
+u_var = Variable(mesh, Variable.TYPE_DIC["first-order-zeroBC"])
+
+stiff_mat = get_stiffness_matrix_opt(co_var)
+mass_mat = get_mass_matrix_opt(
+    mesh, Variable.TYPE_DIC["first-order-zeroBC"], Variable.TYPE_DIC["zero-order"])
+
+f_var = Variable(mesh, Variable.TYPE_DIC["zero-order"])
+
+f_var.evaluation_data_by_func(f, args=0)
+rhs_vec = mass_mat.dot(f_var.data)
+u_var.data, info = cg(stiff_mat, rhs_vec)
+u_var.get_plot(filename="fig/u-flag-0.png")
+
+f_var.evaluation_data_by_func(f, args=1)
+rhs_vec = mass_mat.dot(f_var.data)
+u_var.data, info = cg(stiff_mat, rhs_vec)
+u_var.get_plot(filename="fig/u-flag-1.png")
+
+f_var.evaluation_data_by_func(f, args=2)
+rhs_vec = mass_mat.dot(f_var.data)
+u_var.data, info = cg(stiff_mat, rhs_vec)
+u_var.get_plot(filename="fig/u-flag-2.png")

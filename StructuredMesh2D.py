@@ -115,6 +115,24 @@ class Mesh:
         m, n = self._get_elem_ind2D_(elem_ind)
         return (float(m)+0.5) / float(self.M), (float(n)+0.5) / float(self.M)
 
+    def get_stiffness_trans_tensor(self):
+        trans_tensor = np.zeros((self.inner_node_count, self.inner_node_count,
+                                 Variable._MATRIX_ENTRY_PER_ELEM_ * self.elem_count))
+        for T in range(self.elem_count):
+            for alpha in range(Mesh.NODE_COUNT_PER_ELEM):
+                for beta in range(Mesh.NODE_COUNT_PER_ELEM):
+                    i = self.get_inner_node_indR(alpha, T)
+                    j = self.get_inner_node_indR(beta, T)
+                    if (i >= 0 and j >= 0):
+                        trans_tensor[i, j, Variable._MATRIX_ENTRY_PER_ELEM_ * T+0] = \
+                            Mesh.ELEM_STIFFNESS_XX[alpha, beta]
+                        trans_tensor[i, j, Variable._MATRIX_ENTRY_PER_ELEM_ * T+1] = \
+                            Mesh.ELEM_STIFFNESS_YY[alpha, beta]
+                        trans_tensor[i, j, Variable._MATRIX_ENTRY_PER_ELEM_ * T+2] = \
+                            Mesh.ELEM_STIFFNESS_XYPYX[alpha, beta]
+
+        return trans_tensor
+
 
 class Variable:
     TYPE_DIC = {"zero-order": 0,
@@ -147,6 +165,16 @@ class Variable:
         n = 0.5 * np.sqrt(np.abs((abc[0]-abc[1])**2+4.0*abc[2]**2))
         return np.array([m-n, m+n])
 
+    def get_min_eigen(self):
+        if (self.type == Variable.TYPE_DIC["zero-order-matrix"]):
+            min_eigens = np.zeros((self.mesh.elem_count, ))
+            for elem_ind in range(self.mesh.elem_count):
+                min_eigens[elem_ind] = np.min(
+                    Variable._get_eigens_(self.data[:, elem_ind]))
+            return np.min(min_eigens)
+        else:
+            return -1.0
+
     def __add__(self, other: 'Variable') -> 'Variable':
         assert (self.type == other.type)
         M0, M1 = self.mesh.M, other.mesh.M
@@ -163,6 +191,21 @@ class Variable:
     def __sub__(self, other: 'Variable') -> 'Variable':
         other.data = -other.data
         return self.__add__(other)
+
+    def direct_add(self, other):
+        sum = self.init_by_copy()
+        sum.data = self.data + other.data
+        return sum
+
+    def direct_div(self, scalar):
+        self.data = self.data / scalar
+
+    def diff_inf_norm(self, other):
+        data = self.data - other.data
+        return np.max(np.abs(data))
+
+    def inf_norm(self):
+        return np.max(np.abs(self.data))
 
     def init_by_copy(self):
         return Variable(self.mesh, self.type)
@@ -186,31 +229,32 @@ class Variable:
             _lambda = -1
         return _lambda if _lambda > epsilon else -1
 
-    def evaluation_data_by_func(self, func: Callable[[float, float], float],
-                                func0: Callable[[float, float], float] = None,
-                                func1: Callable[[float, float], float] = None,
-                                func2: Callable[[float, float], float] = None):
+    def evaluation_data_by_func(self, func,
+                                func0=None,
+                                func1=None,
+                                func2=None,
+                                args=None):
         if (self.type == Variable.TYPE_DIC["zero-order"]):
             for elem_ind in range(self.mesh.elem_count):
                 self.data[elem_ind] = func(
-                    *(self.mesh.get_elem_barycenter_coordinate(elem_ind)))
+                    *(self.mesh.get_elem_barycenter_coordinate(elem_ind)), args)
         elif (self.type == Variable.TYPE_DIC["first-order"]):
             for node_ind in range(self.mesh.node_count):
                 self.data[node_ind] = func(
-                    *(self.mesh.get_node_coordinate(node_ind)))
+                    *(self.mesh.get_node_coordinate(node_ind)), args)
         elif (self.type == Variable.TYPE_DIC["first-order-zeroBC"]):
             for inner_node_ind in range(self.mesh.inner_node_count):
                 self.data[inner_node_ind] = func(
-                    *(self.mesh.get_inner_node_coordinate(inner_node_ind)))
+                    *(self.mesh.get_inner_node_coordinate(inner_node_ind)), args)
         elif (self.type == Variable.TYPE_DIC["zero-order-matrix"]):
             assert (func0 != None and func1 != None and func2 != None)
             for elem_ind in range(self.mesh.elem_count):
                 self.data[0, elem_ind] = func0(
-                    *(self.mesh.get_elem_barycenter_coordinate(elem_ind)))
+                    *(self.mesh.get_elem_barycenter_coordinate(elem_ind)), args)
                 self.data[1, elem_ind] = func1(
-                    *(self.mesh.get_elem_barycenter_coordinate(elem_ind)))
+                    *(self.mesh.get_elem_barycenter_coordinate(elem_ind)), args)
                 self.data[2, elem_ind] = func2(
-                    *(self.mesh.get_elem_barycenter_coordinate(elem_ind)))
+                    *(self.mesh.get_elem_barycenter_coordinate(elem_ind)), args)
         else:
             logging.error("You should not arrive here.")
             assert False
@@ -281,6 +325,24 @@ class Variable:
             assert False
 
         return r_var
+
+    def average_to_coarsen_mesh(self, coarse_mesh: Mesh):
+        avg_var = Variable(coarse_mesh, self.type)
+        assert (self.mesh.M % coarse_mesh.M == 0)
+        refine_num = self.mesh.M // coarse_mesh.M
+        if (self.type == Variable.TYPE_DIC["zero-order-matrix"]):
+            A0 = self.data[0, :].reshape((self.mesh.M, -1))
+            A1 = self.data[1, :].reshape((self.mesh.M, -1))
+            A2 = self.data[2, :].reshape((self.mesh.M, -1))
+            for elem_ind in range(coarse_mesh.elem_count):
+                m, n = divmod(elem_ind, coarse_mesh.M)
+                avg_var.data[0, elem_ind] = np.average(
+                    A0[m*refine_num:(m+1)*refine_num, n*refine_num:(n+1)*refine_num])
+                avg_var.data[1, elem_ind] = np.average(
+                    A1[m*refine_num:(m+1)*refine_num, n*refine_num:(n+1)*refine_num])
+                avg_var.data[2, elem_ind] = np.average(
+                    A2[m*refine_num:(m+1)*refine_num, n*refine_num:(n+1)*refine_num])
+        return avg_var
 
     def get_plot(self, filename: str = None, component: int = 0):
         fig = plt.figure()
@@ -457,13 +519,13 @@ def get_mass_matrix(mesh: Mesh, type0: int, type1: int) -> csr_matrix:
 
 
 @vectorize
-#@np.vectorize
+# @np.vectorize
 def _is_positive(a):
     return 1.0 if a >= 0 else 0.0
 
 
 @vectorize
-#@np.vectorize
+# @np.vectorize
 def _replace_negative(a):
     return a if a >= 0 else 0
 
@@ -622,3 +684,17 @@ def get_mass_matrix_opt(mesh: Mesh, type0: int, type1: int) -> csr_matrix:
         "Finish constructing mass matrix by OPTIMIZED method, " +
         "consuming time=%.3fs, matrix size=(%d, %d).", end-start, *(s.shape))
     return s
+
+
+if (__name__ == "__main__"):
+    coarse_mesh = Mesh(32)
+    refine_mesh = coarse_mesh.get_refined_mesh(16)
+    refine_co = Variable(refine_mesh, Variable.TYPE_DIC["zero-order-matrix"])
+    def func0(x, y, args=None): return 3.0*x + y + 1.0
+    def func1(x, y, args=None): return x*(1.0-y)
+    def func2(x, y, args=None): return x*(1.0-y)
+    refine_co.evaluation_data_by_func(
+        None, func0=func0, func1=func1, func2=func2)
+    refine_co.get_plot("fig/refine_co_comp1.png", component=1)
+    coarse_co = refine_co.average_to_coarsen_mesh(coarse_mesh)
+    coarse_co.get_plot("fig/coarse_co_comp1.png", component=1)
