@@ -116,7 +116,8 @@ class Mesh:
         return (float(m)+0.5) / float(self.M), (float(n)+0.5) / float(self.M)
 
     def get_stiffness_trans_tensor(self):
-        trans_tensor = np.zeros((self.inner_node_count, self.inner_node_count,
+        trans_tensor = np.zeros((self.inner_node_count,
+                                 self.inner_node_count,
                                  Variable._MATRIX_ENTRY_PER_ELEM_ * self.elem_count))
         for T in range(self.elem_count):
             for alpha in range(Mesh.NODE_COUNT_PER_ELEM):
@@ -131,6 +132,26 @@ class Mesh:
                         trans_tensor[i, j, Variable._MATRIX_ENTRY_PER_ELEM_ * T+2] = \
                             Mesh.ELEM_STIFFNESS_XYPYX[alpha, beta]
 
+        return trans_tensor
+
+    def get_u2coeff_trans_tensor(self):
+        trans_tensor = np.zeros((Variable._MATRIX_ENTRY_PER_ELEM_,
+                                 self.elem_count,
+                                 self.inner_node_count,
+                                 self.inner_node_count))
+        c = float(self.M)**2
+        for T in range(self.elem_count):
+            for alpha in range(Mesh.NODE_COUNT_PER_ELEM):
+                for beta in range(Mesh.NODE_COUNT_PER_ELEM):
+                    i = self.get_inner_node_indR(alpha, T)
+                    j = self.get_inner_node_indR(beta, T)
+                    if (i >= 0 and j >= 0):
+                        trans_tensor[0, T, i, j] = c * \
+                            Mesh.ELEM_STIFFNESS_XX[alpha, beta]
+                        trans_tensor[1, T, i, j] = c * \
+                            Mesh.ELEM_STIFFNESS_YY[alpha, beta]
+                        trans_tensor[2, T, i, j] = c * \
+                            Mesh.ELEM_STIFFNESS_XY[alpha, beta]
         return trans_tensor
 
 
@@ -175,23 +196,6 @@ class Variable:
         else:
             return -1.0
 
-    def __add__(self, other: 'Variable') -> 'Variable':
-        assert (self.type == other.type)
-        M0, M1 = self.mesh.M, other.mesh.M
-        g = math.gcd(M0, M1)
-        r0, r1 = M1//g, M0//g
-
-        var0 = self.project_to_refined_mesh(r0) if r0 > 1 else self
-        var1 = other.project_to_refined_mesh(r1) if r1 > 1 else other
-        assert (var0.mesh == var1.mesh)
-
-        var0.data = var0.data + var1.data
-        return var0
-
-    def __sub__(self, other: 'Variable') -> 'Variable':
-        other.data = -other.data
-        return self.__add__(other)
-
     def direct_add(self, other):
         sum = self.init_by_copy()
         sum.data = self.data + other.data
@@ -199,13 +203,6 @@ class Variable:
 
     def direct_div(self, scalar):
         self.data = self.data / scalar
-
-    def diff_inf_norm(self, other):
-        data = self.data - other.data
-        return np.max(np.abs(data))
-
-    def inf_norm(self):
-        return np.max(np.abs(self.data))
 
     def init_by_copy(self):
         return Variable(self.mesh, self.type)
@@ -321,7 +318,7 @@ class Variable:
                     u2*rho_x*(1-rho_y) + u3*rho_x*rho_y
                 r_var.data[r_inner_node_ind] = _temp_val
         else:
-            logging.info("You should not arrive here.")
+            logging.critical("You should not arrive here.")
             assert False
 
         return r_var
@@ -396,7 +393,7 @@ class Variable:
                 logging.error(
                     "Can not save the plot to file, check the filename.")
             else:
-                logging.info("The plot has been saved.")
+                logging.critical("The plot has been saved.")
         else:
             plt.show()
 
@@ -405,7 +402,7 @@ def get_stiffness_matrix(co: Variable) -> csr_matrix:
     """
         return: csr_matrix with size freedom_num * freedom_num
     """
-    logging.info("Begin to construct stiffness matrix.")
+    logging.debug("Begin to construct stiffness matrix.")
     start = time.time()
     _flag = 0
     if (co.type == Variable.TYPE_DIC["zero-order"]):
@@ -436,7 +433,7 @@ def get_stiffness_matrix(co: Variable) -> csr_matrix:
 
     s = s.tocsr()
     end = time.time()
-    logging.info(
+    logging.debug(
         "Finish constructing stiffness matrix, consuming time=%.3fs, " +
         "matrix size=(%d, %d).", end-start, *(s.shape()))
     return s
@@ -451,7 +448,7 @@ def get_mass_matrix(mesh: Mesh, type0: int, type1: int) -> csr_matrix:
         - (zero-order, first-order) size (elem_count, node_count)
         - (first-order-zeroBC, zero-order) size (inner_node_count, elem_count)
     """
-    logging.info("Begin to construct mass matrix.")
+    logging.debug("Begin to construct mass matrix.")
     start = time.time()
     _flag = 0
     if (type0 == Variable.TYPE_DIC["first-order"] and
@@ -512,7 +509,7 @@ def get_mass_matrix(mesh: Mesh, type0: int, type1: int) -> csr_matrix:
 
     s = s.tocsr()
     end = time.time()
-    logging.info(
+    logging.debug(
         "Finish constructing mass matrix, consuming time=%.3fs, matrix size=(%d, %d)",
         end-start, *(s.shape))
     return s
@@ -585,7 +582,7 @@ def get_stiffness_matrix_opt(co: Variable) -> csr_matrix:
         s = s + K
 
     end = time.time()
-    logging.info(
+    logging.debug(
         "Finish constructing stiffness matrix by OPTIMIZED method, " +
         "consuming time=%.3fs, matrix size=(%d, %d).", end-start, *(s.shape))
     return s
@@ -680,7 +677,7 @@ def get_mass_matrix_opt(mesh: Mesh, type0: int, type1: int) -> csr_matrix:
             s = s + K
 
     end = time.time()
-    logging.info(
+    logging.debug(
         "Finish constructing mass matrix by OPTIMIZED method, " +
         "consuming time=%.3fs, matrix size=(%d, %d).", end-start, *(s.shape))
     return s

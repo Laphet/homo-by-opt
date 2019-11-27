@@ -1,0 +1,1082 @@
+11/26/2019 14:01:39 INFO 	Go Go Go!
+11/26/2019 14:01:39 INFO 	Add a homogenized solution reference.
+11/26/2019 14:01:39 INFO 	Add a homogenized solution reference.
+11/26/2019 14:01:39 INFO 	Add a homogenized solution reference.
+11/26/2019 14:01:39 INFO 	Add a homogenized solution reference.
+11/26/2019 14:01:39 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:39 INFO 	Optimization step index=0, current object value=0.01170, coefficient descends 0.00328, opt cycle consuming time=0.020.
+11/26/2019 14:01:39 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:39 INFO 	Optimization step index=1, current object value=0.01162, coefficient descends 0.00328, opt cycle consuming time=0.018.
+11/26/2019 14:01:39 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:39 INFO 	Optimization step index=2, current object value=0.01155, coefficient descends 0.00327, opt cycle consuming time=0.017.
+11/26/2019 14:01:39 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:39 INFO 	Optimization step index=3, current object value=0.01147, coefficient descends 0.00326, opt cycle consuming time=0.017.
+11/26/2019 14:01:39 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:39 INFO 	Optimization step index=4, current object value=0.01139, coefficient descends 0.00325, opt cycle consuming time=0.018.
+11/26/2019 14:01:39 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:39 INFO 	Optimization step index=5, current object value=0.01131, coefficient descends 0.00325, opt cycle consuming time=0.017.
+11/26/2019 14:01:39 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:39 INFO 	Optimization step index=6, current object value=0.01124, coefficient descends 0.00324, opt cycle consuming time=0.017.
+11/26/2019 14:01:39 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:39 INFO 	Optimization step index=7, current object value=0.01116, coefficient descends 0.00323, opt cycle consuming time=0.017.
+11/26/2019 14:01:39 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:39 INFO 	Optimization step index=8, current object value=0.01109, coefficient descends 0.00322, opt cycle consuming time=0.017.
+11/26/2019 14:01:39 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:39 INFO 	Optimization step index=9, current object value=0.01101, coefficient descends 0.00321, opt cycle consuming time=0.017.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=10, current object value=0.01094, coefficient descends 0.00321, opt cycle consuming time=0.018.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=11, current object value=0.01087, coefficient descends 0.00320, opt cycle consuming time=0.018.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=12, current object value=0.01079, coefficient descends 0.00319, opt cycle consuming time=0.017.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=13, current object value=0.01072, coefficient descends 0.00318, opt cycle consuming time=0.017.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=14, current object value=0.01065, coefficient descends 0.00317, opt cycle consuming time=0.017.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=15, current object value=0.01058, coefficient descends 0.00317, opt cycle consuming time=0.017.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=16, current object value=0.01051, coefficient descends 0.00316, opt cycle consuming time=0.017.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=17, current object value=0.01044, coefficient descends 0.00315, opt cycle consuming time=0.017.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=18, current object value=0.01038, coefficient descends 0.00314, opt cycle consuming time=0.019.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=19, current object value=0.01031, coefficient descends 0.00314, opt cycle consuming time=0.022.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=20, current object value=0.01024, coefficient descends 0.00313, opt cycle consuming time=0.022.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=21, current object value=0.01017, coefficient descends 0.00312, opt cycle consuming time=0.022.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=22, current object value=0.01011, coefficient descends 0.00311, opt cycle consuming time=0.021.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=23, current object value=0.01004, coefficient descends 0.00311, opt cycle consuming time=0.022.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=24, current object value=0.00998, coefficient descends 0.00310, opt cycle consuming time=0.024.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=25, current object value=0.00991, coefficient descends 0.00309, opt cycle consuming time=0.021.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=26, current object value=0.00985, coefficient descends 0.00308, opt cycle consuming time=0.022.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=27, current object value=0.00979, coefficient descends 0.00308, opt cycle consuming time=0.019.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=28, current object value=0.00973, coefficient descends 0.00307, opt cycle consuming time=0.020.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=29, current object value=0.00966, coefficient descends 0.00306, opt cycle consuming time=0.019.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=30, current object value=0.00960, coefficient descends 0.00305, opt cycle consuming time=0.018.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=31, current object value=0.00954, coefficient descends 0.00305, opt cycle consuming time=0.018.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=32, current object value=0.00948, coefficient descends 0.00304, opt cycle consuming time=0.017.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=33, current object value=0.00942, coefficient descends 0.00303, opt cycle consuming time=0.019.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=34, current object value=0.00936, coefficient descends 0.00302, opt cycle consuming time=0.018.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=35, current object value=0.00931, coefficient descends 0.00302, opt cycle consuming time=0.018.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=36, current object value=0.00925, coefficient descends 0.00301, opt cycle consuming time=0.018.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=37, current object value=0.00919, coefficient descends 0.00300, opt cycle consuming time=0.018.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=38, current object value=0.00913, coefficient descends 0.00299, opt cycle consuming time=0.017.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=39, current object value=0.00908, coefficient descends 0.00299, opt cycle consuming time=0.018.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=40, current object value=0.00902, coefficient descends 0.00298, opt cycle consuming time=0.017.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=41, current object value=0.00897, coefficient descends 0.00297, opt cycle consuming time=0.017.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=42, current object value=0.00891, coefficient descends 0.00297, opt cycle consuming time=0.018.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=43, current object value=0.00886, coefficient descends 0.00296, opt cycle consuming time=0.017.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=44, current object value=0.00880, coefficient descends 0.00295, opt cycle consuming time=0.017.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=45, current object value=0.00875, coefficient descends 0.00295, opt cycle consuming time=0.017.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=46, current object value=0.00870, coefficient descends 0.00294, opt cycle consuming time=0.017.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=47, current object value=0.00865, coefficient descends 0.00293, opt cycle consuming time=0.017.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=48, current object value=0.00860, coefficient descends 0.00293, opt cycle consuming time=0.017.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=49, current object value=0.00854, coefficient descends 0.00292, opt cycle consuming time=0.018.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=50, current object value=0.00849, coefficient descends 0.00291, opt cycle consuming time=0.017.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=51, current object value=0.00844, coefficient descends 0.00290, opt cycle consuming time=0.017.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=52, current object value=0.00839, coefficient descends 0.00290, opt cycle consuming time=0.018.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=53, current object value=0.00835, coefficient descends 0.00289, opt cycle consuming time=0.018.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=54, current object value=0.00830, coefficient descends 0.00288, opt cycle consuming time=0.018.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=55, current object value=0.00825, coefficient descends 0.00288, opt cycle consuming time=0.018.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=56, current object value=0.00820, coefficient descends 0.00287, opt cycle consuming time=0.018.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=57, current object value=0.00815, coefficient descends 0.00287, opt cycle consuming time=0.018.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=58, current object value=0.00811, coefficient descends 0.00286, opt cycle consuming time=0.018.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=59, current object value=0.00806, coefficient descends 0.00285, opt cycle consuming time=0.019.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=60, current object value=0.00802, coefficient descends 0.00285, opt cycle consuming time=0.017.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=61, current object value=0.00797, coefficient descends 0.00284, opt cycle consuming time=0.017.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:40 INFO 	Optimization step index=62, current object value=0.00792, coefficient descends 0.00283, opt cycle consuming time=0.018.
+11/26/2019 14:01:40 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=63, current object value=0.00788, coefficient descends 0.00283, opt cycle consuming time=0.017.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=64, current object value=0.00784, coefficient descends 0.00282, opt cycle consuming time=0.017.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=65, current object value=0.00779, coefficient descends 0.00281, opt cycle consuming time=0.017.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=66, current object value=0.00775, coefficient descends 0.00281, opt cycle consuming time=0.018.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=67, current object value=0.00771, coefficient descends 0.00280, opt cycle consuming time=0.018.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=68, current object value=0.00766, coefficient descends 0.00280, opt cycle consuming time=0.017.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=69, current object value=0.00762, coefficient descends 0.00279, opt cycle consuming time=0.018.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=70, current object value=0.00758, coefficient descends 0.00278, opt cycle consuming time=0.017.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=71, current object value=0.00754, coefficient descends 0.00278, opt cycle consuming time=0.018.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=72, current object value=0.00750, coefficient descends 0.00277, opt cycle consuming time=0.017.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=73, current object value=0.00746, coefficient descends 0.00277, opt cycle consuming time=0.017.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=74, current object value=0.00742, coefficient descends 0.00276, opt cycle consuming time=0.017.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=75, current object value=0.00738, coefficient descends 0.00275, opt cycle consuming time=0.017.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=76, current object value=0.00734, coefficient descends 0.00275, opt cycle consuming time=0.017.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=77, current object value=0.00730, coefficient descends 0.00274, opt cycle consuming time=0.018.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=78, current object value=0.00726, coefficient descends 0.00274, opt cycle consuming time=0.017.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=79, current object value=0.00723, coefficient descends 0.00273, opt cycle consuming time=0.018.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=80, current object value=0.00719, coefficient descends 0.00273, opt cycle consuming time=0.017.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=81, current object value=0.00715, coefficient descends 0.00272, opt cycle consuming time=0.019.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=82, current object value=0.00711, coefficient descends 0.00272, opt cycle consuming time=0.019.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=83, current object value=0.00708, coefficient descends 0.00271, opt cycle consuming time=0.019.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=84, current object value=0.00704, coefficient descends 0.00270, opt cycle consuming time=0.019.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=85, current object value=0.00701, coefficient descends 0.00270, opt cycle consuming time=0.018.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=86, current object value=0.00697, coefficient descends 0.00269, opt cycle consuming time=0.018.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=87, current object value=0.00694, coefficient descends 0.00269, opt cycle consuming time=0.017.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=88, current object value=0.00690, coefficient descends 0.00268, opt cycle consuming time=0.017.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=89, current object value=0.00687, coefficient descends 0.00268, opt cycle consuming time=0.018.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=90, current object value=0.00683, coefficient descends 0.00267, opt cycle consuming time=0.018.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=91, current object value=0.00680, coefficient descends 0.00267, opt cycle consuming time=0.018.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=92, current object value=0.00677, coefficient descends 0.00266, opt cycle consuming time=0.017.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=93, current object value=0.00673, coefficient descends 0.00266, opt cycle consuming time=0.018.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=94, current object value=0.00670, coefficient descends 0.00265, opt cycle consuming time=0.017.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=95, current object value=0.00667, coefficient descends 0.00265, opt cycle consuming time=0.018.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=96, current object value=0.00664, coefficient descends 0.00264, opt cycle consuming time=0.019.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=97, current object value=0.00661, coefficient descends 0.00264, opt cycle consuming time=0.019.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=98, current object value=0.00657, coefficient descends 0.00263, opt cycle consuming time=0.018.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=99, current object value=0.00654, coefficient descends 0.00263, opt cycle consuming time=0.019.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=100, current object value=0.00651, coefficient descends 0.00262, opt cycle consuming time=0.019.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=101, current object value=0.00648, coefficient descends 0.00262, opt cycle consuming time=0.019.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=102, current object value=0.00645, coefficient descends 0.00261, opt cycle consuming time=0.019.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=103, current object value=0.00642, coefficient descends 0.00261, opt cycle consuming time=0.019.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=104, current object value=0.00639, coefficient descends 0.00260, opt cycle consuming time=0.019.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=105, current object value=0.00636, coefficient descends 0.00260, opt cycle consuming time=0.019.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=106, current object value=0.00634, coefficient descends 0.00259, opt cycle consuming time=0.017.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=107, current object value=0.00631, coefficient descends 0.00259, opt cycle consuming time=0.018.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=108, current object value=0.00628, coefficient descends 0.00259, opt cycle consuming time=0.017.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=109, current object value=0.00625, coefficient descends 0.00258, opt cycle consuming time=0.017.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=110, current object value=0.00622, coefficient descends 0.00258, opt cycle consuming time=0.017.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=111, current object value=0.00619, coefficient descends 0.00257, opt cycle consuming time=0.017.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=112, current object value=0.00617, coefficient descends 0.00257, opt cycle consuming time=0.017.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=113, current object value=0.00614, coefficient descends 0.00256, opt cycle consuming time=0.017.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=114, current object value=0.00611, coefficient descends 0.00256, opt cycle consuming time=0.020.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=115, current object value=0.00609, coefficient descends 0.00255, opt cycle consuming time=0.019.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=116, current object value=0.00606, coefficient descends 0.00255, opt cycle consuming time=0.022.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:41 INFO 	Optimization step index=117, current object value=0.00604, coefficient descends 0.00255, opt cycle consuming time=0.022.
+11/26/2019 14:01:41 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=118, current object value=0.00601, coefficient descends 0.00254, opt cycle consuming time=0.022.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=119, current object value=0.00598, coefficient descends 0.00254, opt cycle consuming time=0.021.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=120, current object value=0.00596, coefficient descends 0.00253, opt cycle consuming time=0.020.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=121, current object value=0.00593, coefficient descends 0.00253, opt cycle consuming time=0.030.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=122, current object value=0.00591, coefficient descends 0.00253, opt cycle consuming time=0.025.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=123, current object value=0.00590, coefficient descends 0.00252, opt cycle consuming time=0.030.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=124, current object value=0.00588, coefficient descends 0.00252, opt cycle consuming time=0.023.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=125, current object value=0.00586, coefficient descends 0.00252, opt cycle consuming time=0.025.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=126, current object value=0.00584, coefficient descends 0.00251, opt cycle consuming time=0.024.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=127, current object value=0.00582, coefficient descends 0.00251, opt cycle consuming time=0.026.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=128, current object value=0.00581, coefficient descends 0.00251, opt cycle consuming time=0.022.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=129, current object value=0.00579, coefficient descends 0.00251, opt cycle consuming time=0.028.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=130, current object value=0.00577, coefficient descends 0.00251, opt cycle consuming time=0.027.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=131, current object value=0.00575, coefficient descends 0.00250, opt cycle consuming time=0.029.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=132, current object value=0.00574, coefficient descends 0.00250, opt cycle consuming time=0.028.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=133, current object value=0.00572, coefficient descends 0.00250, opt cycle consuming time=0.032.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=134, current object value=0.00570, coefficient descends 0.00250, opt cycle consuming time=0.029.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=135, current object value=0.00569, coefficient descends 0.00249, opt cycle consuming time=0.020.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=136, current object value=0.00567, coefficient descends 0.00249, opt cycle consuming time=0.019.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=137, current object value=0.00566, coefficient descends 0.00249, opt cycle consuming time=0.018.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=138, current object value=0.00564, coefficient descends 0.00249, opt cycle consuming time=0.018.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=139, current object value=0.00562, coefficient descends 0.00248, opt cycle consuming time=0.018.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=140, current object value=0.00561, coefficient descends 0.00248, opt cycle consuming time=0.018.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=141, current object value=0.00560, coefficient descends 0.00248, opt cycle consuming time=0.019.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=142, current object value=0.00559, coefficient descends 0.00248, opt cycle consuming time=0.018.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=143, current object value=0.00557, coefficient descends 0.00248, opt cycle consuming time=0.018.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=144, current object value=0.00556, coefficient descends 0.00247, opt cycle consuming time=0.018.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=145, current object value=0.00555, coefficient descends 0.00247, opt cycle consuming time=0.018.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=146, current object value=0.00553, coefficient descends 0.00247, opt cycle consuming time=0.020.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=147, current object value=0.00552, coefficient descends 0.00247, opt cycle consuming time=0.019.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=148, current object value=0.00551, coefficient descends 0.00247, opt cycle consuming time=0.018.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=149, current object value=0.00550, coefficient descends 0.00247, opt cycle consuming time=0.017.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=150, current object value=0.00549, coefficient descends 0.00246, opt cycle consuming time=0.018.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=151, current object value=0.00547, coefficient descends 0.00246, opt cycle consuming time=0.018.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=152, current object value=0.00546, coefficient descends 0.00246, opt cycle consuming time=0.018.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=153, current object value=0.00545, coefficient descends 0.00246, opt cycle consuming time=0.018.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=154, current object value=0.00544, coefficient descends 0.00246, opt cycle consuming time=0.020.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=155, current object value=0.00543, coefficient descends 0.00246, opt cycle consuming time=0.018.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=156, current object value=0.00541, coefficient descends 0.00245, opt cycle consuming time=0.018.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=157, current object value=0.00540, coefficient descends 0.00245, opt cycle consuming time=0.017.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=158, current object value=0.00539, coefficient descends 0.00245, opt cycle consuming time=0.017.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=159, current object value=0.00538, coefficient descends 0.00245, opt cycle consuming time=0.017.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=160, current object value=0.00537, coefficient descends 0.00245, opt cycle consuming time=0.016.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=161, current object value=0.00536, coefficient descends 0.00245, opt cycle consuming time=0.017.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=162, current object value=0.00535, coefficient descends 0.00244, opt cycle consuming time=0.017.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=163, current object value=0.00533, coefficient descends 0.00244, opt cycle consuming time=0.017.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:42 INFO 	Optimization step index=164, current object value=0.00533, coefficient descends 0.00244, opt cycle consuming time=0.017.
+11/26/2019 14:01:42 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=165, current object value=0.00532, coefficient descends 0.00244, opt cycle consuming time=0.017.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=166, current object value=0.00531, coefficient descends 0.00244, opt cycle consuming time=0.020.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=167, current object value=0.00530, coefficient descends 0.00244, opt cycle consuming time=0.020.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=168, current object value=0.00529, coefficient descends 0.00244, opt cycle consuming time=0.020.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=169, current object value=0.00528, coefficient descends 0.00243, opt cycle consuming time=0.020.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=170, current object value=0.00527, coefficient descends 0.00243, opt cycle consuming time=0.018.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=171, current object value=0.00526, coefficient descends 0.00243, opt cycle consuming time=0.017.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=172, current object value=0.00526, coefficient descends 0.00243, opt cycle consuming time=0.021.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=173, current object value=0.00525, coefficient descends 0.00243, opt cycle consuming time=0.020.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=174, current object value=0.00524, coefficient descends 0.00243, opt cycle consuming time=0.020.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=175, current object value=0.00523, coefficient descends 0.00243, opt cycle consuming time=0.021.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=176, current object value=0.00522, coefficient descends 0.00243, opt cycle consuming time=0.018.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=177, current object value=0.00521, coefficient descends 0.00242, opt cycle consuming time=0.017.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=178, current object value=0.00520, coefficient descends 0.00242, opt cycle consuming time=0.016.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=179, current object value=0.00520, coefficient descends 0.00242, opt cycle consuming time=0.016.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=180, current object value=0.00519, coefficient descends 0.00242, opt cycle consuming time=0.016.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=181, current object value=0.00518, coefficient descends 0.00242, opt cycle consuming time=0.017.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=182, current object value=0.00517, coefficient descends 0.00242, opt cycle consuming time=0.017.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=183, current object value=0.00516, coefficient descends 0.00242, opt cycle consuming time=0.017.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=184, current object value=0.00515, coefficient descends 0.00242, opt cycle consuming time=0.017.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=185, current object value=0.00515, coefficient descends 0.00241, opt cycle consuming time=0.017.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=186, current object value=0.00514, coefficient descends 0.00241, opt cycle consuming time=0.017.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=187, current object value=0.00513, coefficient descends 0.00241, opt cycle consuming time=0.017.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=188, current object value=0.00512, coefficient descends 0.00241, opt cycle consuming time=0.017.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=189, current object value=0.00511, coefficient descends 0.00241, opt cycle consuming time=0.017.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=190, current object value=0.00511, coefficient descends 0.00241, opt cycle consuming time=0.022.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=191, current object value=0.00510, coefficient descends 0.00241, opt cycle consuming time=0.021.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=192, current object value=0.00509, coefficient descends 0.00241, opt cycle consuming time=0.018.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=193, current object value=0.00508, coefficient descends 0.00241, opt cycle consuming time=0.017.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=194, current object value=0.00507, coefficient descends 0.00240, opt cycle consuming time=0.017.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=195, current object value=0.00507, coefficient descends 0.00240, opt cycle consuming time=0.017.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=196, current object value=0.00506, coefficient descends 0.00240, opt cycle consuming time=0.017.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=197, current object value=0.00506, coefficient descends 0.00240, opt cycle consuming time=0.018.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=198, current object value=0.00505, coefficient descends 0.00240, opt cycle consuming time=0.018.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=199, current object value=0.00505, coefficient descends 0.00240, opt cycle consuming time=0.017.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=200, current object value=0.00505, coefficient descends 0.00240, opt cycle consuming time=0.017.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=201, current object value=0.00504, coefficient descends 0.00240, opt cycle consuming time=0.017.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=202, current object value=0.00504, coefficient descends 0.00240, opt cycle consuming time=0.017.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=203, current object value=0.00504, coefficient descends 0.00240, opt cycle consuming time=0.017.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=204, current object value=0.00503, coefficient descends 0.00240, opt cycle consuming time=0.018.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=205, current object value=0.00503, coefficient descends 0.00240, opt cycle consuming time=0.017.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=206, current object value=0.00503, coefficient descends 0.00239, opt cycle consuming time=0.017.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=207, current object value=0.00502, coefficient descends 0.00239, opt cycle consuming time=0.016.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=208, current object value=0.00502, coefficient descends 0.00239, opt cycle consuming time=0.017.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=209, current object value=0.00502, coefficient descends 0.00239, opt cycle consuming time=0.017.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=210, current object value=0.00501, coefficient descends 0.00239, opt cycle consuming time=0.016.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=211, current object value=0.00501, coefficient descends 0.00239, opt cycle consuming time=0.016.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=212, current object value=0.00501, coefficient descends 0.00239, opt cycle consuming time=0.017.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=213, current object value=0.00501, coefficient descends 0.00239, opt cycle consuming time=0.017.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=214, current object value=0.00500, coefficient descends 0.00239, opt cycle consuming time=0.017.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=215, current object value=0.00500, coefficient descends 0.00239, opt cycle consuming time=0.020.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=216, current object value=0.00500, coefficient descends 0.00239, opt cycle consuming time=0.016.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=217, current object value=0.00500, coefficient descends 0.00239, opt cycle consuming time=0.016.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=218, current object value=0.00500, coefficient descends 0.00239, opt cycle consuming time=0.016.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=219, current object value=0.00499, coefficient descends 0.00239, opt cycle consuming time=0.020.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:43 INFO 	Optimization step index=220, current object value=0.00499, coefficient descends 0.00239, opt cycle consuming time=0.017.
+11/26/2019 14:01:43 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=221, current object value=0.00499, coefficient descends 0.00239, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=222, current object value=0.00499, coefficient descends 0.00239, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=223, current object value=0.00499, coefficient descends 0.00239, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=224, current object value=0.00499, coefficient descends 0.00239, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=225, current object value=0.00499, coefficient descends 0.00239, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=226, current object value=0.00499, coefficient descends 0.00239, opt cycle consuming time=0.016.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=227, current object value=0.00499, coefficient descends 0.00239, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=228, current object value=0.00498, coefficient descends 0.00239, opt cycle consuming time=0.018.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=229, current object value=0.00498, coefficient descends 0.00239, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=230, current object value=0.00498, coefficient descends 0.00239, opt cycle consuming time=0.020.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=231, current object value=0.00498, coefficient descends 0.00238, opt cycle consuming time=0.021.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=232, current object value=0.00498, coefficient descends 0.00238, opt cycle consuming time=0.018.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=233, current object value=0.00498, coefficient descends 0.00238, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=234, current object value=0.00498, coefficient descends 0.00238, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=235, current object value=0.00498, coefficient descends 0.00238, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=236, current object value=0.00497, coefficient descends 0.00238, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=237, current object value=0.00497, coefficient descends 0.00238, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=238, current object value=0.00497, coefficient descends 0.00238, opt cycle consuming time=0.016.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=239, current object value=0.00497, coefficient descends 0.00238, opt cycle consuming time=0.016.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=240, current object value=0.00497, coefficient descends 0.00238, opt cycle consuming time=0.016.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=241, current object value=0.00497, coefficient descends 0.00238, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=242, current object value=0.00497, coefficient descends 0.00238, opt cycle consuming time=0.018.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=243, current object value=0.00497, coefficient descends 0.00238, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=244, current object value=0.00496, coefficient descends 0.00238, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=245, current object value=0.00496, coefficient descends 0.00238, opt cycle consuming time=0.016.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=246, current object value=0.00496, coefficient descends 0.00238, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=247, current object value=0.00496, coefficient descends 0.00238, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=248, current object value=0.00496, coefficient descends 0.00238, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=249, current object value=0.00496, coefficient descends 0.00238, opt cycle consuming time=0.020.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=250, current object value=0.00496, coefficient descends 0.00238, opt cycle consuming time=0.028.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=251, current object value=0.00496, coefficient descends 0.00238, opt cycle consuming time=0.036.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=252, current object value=0.00496, coefficient descends 0.00238, opt cycle consuming time=0.024.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=253, current object value=0.00495, coefficient descends 0.00238, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=254, current object value=0.00495, coefficient descends 0.00238, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=255, current object value=0.00495, coefficient descends 0.00238, opt cycle consuming time=0.016.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=256, current object value=0.00495, coefficient descends 0.00238, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=257, current object value=0.00495, coefficient descends 0.00238, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=258, current object value=0.00495, coefficient descends 0.00238, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=259, current object value=0.00495, coefficient descends 0.00238, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=260, current object value=0.00495, coefficient descends 0.00238, opt cycle consuming time=0.016.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=261, current object value=0.00494, coefficient descends 0.00238, opt cycle consuming time=0.016.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=262, current object value=0.00494, coefficient descends 0.00238, opt cycle consuming time=0.016.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=263, current object value=0.00494, coefficient descends 0.00238, opt cycle consuming time=0.016.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=264, current object value=0.00494, coefficient descends 0.00238, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=265, current object value=0.00494, coefficient descends 0.00238, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=266, current object value=0.00494, coefficient descends 0.00238, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=267, current object value=0.00494, coefficient descends 0.00238, opt cycle consuming time=0.016.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=268, current object value=0.00494, coefficient descends 0.00238, opt cycle consuming time=0.016.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=269, current object value=0.00494, coefficient descends 0.00238, opt cycle consuming time=0.016.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=270, current object value=0.00493, coefficient descends 0.00238, opt cycle consuming time=0.018.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=271, current object value=0.00493, coefficient descends 0.00237, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=272, current object value=0.00493, coefficient descends 0.00237, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=273, current object value=0.00493, coefficient descends 0.00237, opt cycle consuming time=0.016.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=274, current object value=0.00493, coefficient descends 0.00237, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:44 INFO 	Optimization step index=275, current object value=0.00493, coefficient descends 0.00237, opt cycle consuming time=0.017.
+11/26/2019 14:01:44 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=276, current object value=0.00493, coefficient descends 0.00237, opt cycle consuming time=0.018.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=277, current object value=0.00493, coefficient descends 0.00237, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=278, current object value=0.00493, coefficient descends 0.00237, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=279, current object value=0.00492, coefficient descends 0.00237, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=280, current object value=0.00492, coefficient descends 0.00237, opt cycle consuming time=0.016.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=281, current object value=0.00492, coefficient descends 0.00237, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=282, current object value=0.00492, coefficient descends 0.00237, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=283, current object value=0.00492, coefficient descends 0.00237, opt cycle consuming time=0.016.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=284, current object value=0.00492, coefficient descends 0.00237, opt cycle consuming time=0.016.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=285, current object value=0.00492, coefficient descends 0.00237, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=286, current object value=0.00492, coefficient descends 0.00237, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=287, current object value=0.00492, coefficient descends 0.00237, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=288, current object value=0.00491, coefficient descends 0.00237, opt cycle consuming time=0.018.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=289, current object value=0.00491, coefficient descends 0.00237, opt cycle consuming time=0.018.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=290, current object value=0.00491, coefficient descends 0.00237, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=291, current object value=0.00491, coefficient descends 0.00237, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=292, current object value=0.00491, coefficient descends 0.00237, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=293, current object value=0.00491, coefficient descends 0.00237, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=294, current object value=0.00491, coefficient descends 0.00237, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=295, current object value=0.00491, coefficient descends 0.00237, opt cycle consuming time=0.016.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=296, current object value=0.00491, coefficient descends 0.00237, opt cycle consuming time=0.016.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=297, current object value=0.00490, coefficient descends 0.00237, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=298, current object value=0.00490, coefficient descends 0.00237, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=299, current object value=0.00490, coefficient descends 0.00237, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=300, current object value=0.00490, coefficient descends 0.00237, opt cycle consuming time=0.016.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=301, current object value=0.00490, coefficient descends 0.00237, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=302, current object value=0.00490, coefficient descends 0.00237, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=303, current object value=0.00490, coefficient descends 0.00237, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=304, current object value=0.00490, coefficient descends 0.00237, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=305, current object value=0.00490, coefficient descends 0.00237, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=306, current object value=0.00489, coefficient descends 0.00237, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=307, current object value=0.00489, coefficient descends 0.00237, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=308, current object value=0.00489, coefficient descends 0.00237, opt cycle consuming time=0.016.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=309, current object value=0.00489, coefficient descends 0.00237, opt cycle consuming time=0.018.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=310, current object value=0.00489, coefficient descends 0.00237, opt cycle consuming time=0.018.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=311, current object value=0.00489, coefficient descends 0.00237, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=312, current object value=0.00489, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=313, current object value=0.00489, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=314, current object value=0.00489, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=315, current object value=0.00489, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=316, current object value=0.00489, coefficient descends 0.00236, opt cycle consuming time=0.018.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=317, current object value=0.00489, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=318, current object value=0.00489, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=319, current object value=0.00488, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=320, current object value=0.00488, coefficient descends 0.00236, opt cycle consuming time=0.018.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=321, current object value=0.00488, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=322, current object value=0.00488, coefficient descends 0.00236, opt cycle consuming time=0.016.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=323, current object value=0.00488, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=324, current object value=0.00488, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=325, current object value=0.00488, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=326, current object value=0.00488, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=327, current object value=0.00488, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=328, current object value=0.00488, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=329, current object value=0.00488, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=330, current object value=0.00488, coefficient descends 0.00236, opt cycle consuming time=0.016.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:45 INFO 	Optimization step index=331, current object value=0.00488, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:45 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=332, current object value=0.00488, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=333, current object value=0.00488, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=334, current object value=0.00488, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=335, current object value=0.00488, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=336, current object value=0.00487, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=337, current object value=0.00487, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=338, current object value=0.00487, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=339, current object value=0.00487, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=340, current object value=0.00487, coefficient descends 0.00236, opt cycle consuming time=0.016.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=341, current object value=0.00487, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=342, current object value=0.00487, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=343, current object value=0.00487, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=344, current object value=0.00487, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=345, current object value=0.00487, coefficient descends 0.00236, opt cycle consuming time=0.016.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=346, current object value=0.00487, coefficient descends 0.00236, opt cycle consuming time=0.016.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=347, current object value=0.00487, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=348, current object value=0.00487, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=349, current object value=0.00487, coefficient descends 0.00236, opt cycle consuming time=0.018.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=350, current object value=0.00487, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=351, current object value=0.00487, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=352, current object value=0.00487, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=353, current object value=0.00487, coefficient descends 0.00236, opt cycle consuming time=0.016.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=354, current object value=0.00486, coefficient descends 0.00236, opt cycle consuming time=0.016.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=355, current object value=0.00486, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=356, current object value=0.00486, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=357, current object value=0.00486, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=358, current object value=0.00486, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=359, current object value=0.00486, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=360, current object value=0.00486, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=361, current object value=0.00486, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=362, current object value=0.00486, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=363, current object value=0.00486, coefficient descends 0.00236, opt cycle consuming time=0.021.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=364, current object value=0.00486, coefficient descends 0.00236, opt cycle consuming time=0.021.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=365, current object value=0.00486, coefficient descends 0.00236, opt cycle consuming time=0.019.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=366, current object value=0.00486, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=367, current object value=0.00486, coefficient descends 0.00236, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=368, current object value=0.00486, coefficient descends 0.00236, opt cycle consuming time=0.019.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=369, current object value=0.00486, coefficient descends 0.00236, opt cycle consuming time=0.022.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=370, current object value=0.00486, coefficient descends 0.00236, opt cycle consuming time=0.021.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=371, current object value=0.00486, coefficient descends 0.00235, opt cycle consuming time=0.018.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=372, current object value=0.00486, coefficient descends 0.00235, opt cycle consuming time=0.016.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=373, current object value=0.00485, coefficient descends 0.00235, opt cycle consuming time=0.016.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=374, current object value=0.00485, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=375, current object value=0.00485, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=376, current object value=0.00485, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=377, current object value=0.00485, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=378, current object value=0.00485, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=379, current object value=0.00485, coefficient descends 0.00235, opt cycle consuming time=0.018.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=380, current object value=0.00485, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=381, current object value=0.00485, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=382, current object value=0.00485, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=383, current object value=0.00485, coefficient descends 0.00235, opt cycle consuming time=0.018.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=384, current object value=0.00485, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=385, current object value=0.00485, coefficient descends 0.00235, opt cycle consuming time=0.016.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=386, current object value=0.00485, coefficient descends 0.00235, opt cycle consuming time=0.018.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=387, current object value=0.00485, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=388, current object value=0.00485, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:46 INFO 	Optimization step index=389, current object value=0.00485, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:46 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=390, current object value=0.00485, coefficient descends 0.00235, opt cycle consuming time=0.018.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=391, current object value=0.00485, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=392, current object value=0.00484, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=393, current object value=0.00484, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=394, current object value=0.00484, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=395, current object value=0.00484, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=396, current object value=0.00484, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=397, current object value=0.00484, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=398, current object value=0.00484, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=399, current object value=0.00484, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=400, current object value=0.00484, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=401, current object value=0.00484, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=402, current object value=0.00484, coefficient descends 0.00235, opt cycle consuming time=0.018.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=403, current object value=0.00484, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=404, current object value=0.00484, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=405, current object value=0.00484, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=406, current object value=0.00484, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=407, current object value=0.00484, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=408, current object value=0.00484, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=409, current object value=0.00484, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=410, current object value=0.00484, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=411, current object value=0.00484, coefficient descends 0.00235, opt cycle consuming time=0.018.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=412, current object value=0.00483, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=413, current object value=0.00483, coefficient descends 0.00235, opt cycle consuming time=0.017.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=414, current object value=0.00483, coefficient descends 0.00235, opt cycle consuming time=0.016.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=415, current object value=0.00483, coefficient descends 0.00235, opt cycle consuming time=0.018.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=416, current object value=0.00483, coefficient descends 0.00235, opt cycle consuming time=0.020.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=417, current object value=0.00483, coefficient descends 0.00235, opt cycle consuming time=0.020.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=418, current object value=0.00483, coefficient descends 0.00235, opt cycle consuming time=0.019.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=419, current object value=0.00483, coefficient descends 0.00235, opt cycle consuming time=0.022.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=420, current object value=0.00483, coefficient descends 0.00235, opt cycle consuming time=0.019.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=421, current object value=0.00483, coefficient descends 0.00235, opt cycle consuming time=0.021.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=422, current object value=0.00483, coefficient descends 0.00235, opt cycle consuming time=0.019.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=423, current object value=0.00483, coefficient descends 0.00235, opt cycle consuming time=0.020.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=424, current object value=0.00483, coefficient descends 0.00235, opt cycle consuming time=0.020.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=425, current object value=0.00483, coefficient descends 0.00235, opt cycle consuming time=0.019.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=426, current object value=0.00483, coefficient descends 0.00235, opt cycle consuming time=0.024.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=427, current object value=0.00483, coefficient descends 0.00235, opt cycle consuming time=0.019.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=428, current object value=0.00483, coefficient descends 0.00235, opt cycle consuming time=0.021.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=429, current object value=0.00483, coefficient descends 0.00235, opt cycle consuming time=0.019.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=430, current object value=0.00483, coefficient descends 0.00235, opt cycle consuming time=0.020.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=431, current object value=0.00483, coefficient descends 0.00235, opt cycle consuming time=0.023.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=432, current object value=0.00482, coefficient descends 0.00234, opt cycle consuming time=0.020.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=433, current object value=0.00482, coefficient descends 0.00234, opt cycle consuming time=0.026.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=434, current object value=0.00482, coefficient descends 0.00234, opt cycle consuming time=0.024.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=435, current object value=0.00482, coefficient descends 0.00234, opt cycle consuming time=0.022.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=436, current object value=0.00482, coefficient descends 0.00234, opt cycle consuming time=0.020.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=437, current object value=0.00482, coefficient descends 0.00234, opt cycle consuming time=0.018.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=438, current object value=0.00482, coefficient descends 0.00234, opt cycle consuming time=0.018.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=439, current object value=0.00482, coefficient descends 0.00234, opt cycle consuming time=0.018.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=440, current object value=0.00482, coefficient descends 0.00234, opt cycle consuming time=0.017.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=441, current object value=0.00482, coefficient descends 0.00234, opt cycle consuming time=0.017.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:47 INFO 	Optimization step index=442, current object value=0.00482, coefficient descends 0.00234, opt cycle consuming time=0.017.
+11/26/2019 14:01:47 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=443, current object value=0.00482, coefficient descends 0.00234, opt cycle consuming time=0.016.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=444, current object value=0.00482, coefficient descends 0.00234, opt cycle consuming time=0.017.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=445, current object value=0.00482, coefficient descends 0.00234, opt cycle consuming time=0.019.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=446, current object value=0.00482, coefficient descends 0.00234, opt cycle consuming time=0.017.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=447, current object value=0.00482, coefficient descends 0.00234, opt cycle consuming time=0.017.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=448, current object value=0.00482, coefficient descends 0.00234, opt cycle consuming time=0.017.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=449, current object value=0.00482, coefficient descends 0.00234, opt cycle consuming time=0.017.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=450, current object value=0.00482, coefficient descends 0.00234, opt cycle consuming time=0.016.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=451, current object value=0.00482, coefficient descends 0.00234, opt cycle consuming time=0.017.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=452, current object value=0.00482, coefficient descends 0.00234, opt cycle consuming time=0.016.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=453, current object value=0.00481, coefficient descends 0.00234, opt cycle consuming time=0.016.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=454, current object value=0.00481, coefficient descends 0.00234, opt cycle consuming time=0.017.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=455, current object value=0.00481, coefficient descends 0.00234, opt cycle consuming time=0.016.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=456, current object value=0.00481, coefficient descends 0.00234, opt cycle consuming time=0.016.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=457, current object value=0.00481, coefficient descends 0.00234, opt cycle consuming time=0.018.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=458, current object value=0.00481, coefficient descends 0.00234, opt cycle consuming time=0.017.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=459, current object value=0.00481, coefficient descends 0.00234, opt cycle consuming time=0.018.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=460, current object value=0.00481, coefficient descends 0.00234, opt cycle consuming time=0.021.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=461, current object value=0.00481, coefficient descends 0.00234, opt cycle consuming time=0.021.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=462, current object value=0.00481, coefficient descends 0.00234, opt cycle consuming time=0.020.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=463, current object value=0.00481, coefficient descends 0.00234, opt cycle consuming time=0.021.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=464, current object value=0.00481, coefficient descends 0.00234, opt cycle consuming time=0.020.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=465, current object value=0.00481, coefficient descends 0.00234, opt cycle consuming time=0.020.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=466, current object value=0.00481, coefficient descends 0.00234, opt cycle consuming time=0.022.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=467, current object value=0.00481, coefficient descends 0.00234, opt cycle consuming time=0.021.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=468, current object value=0.00481, coefficient descends 0.00234, opt cycle consuming time=0.022.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=469, current object value=0.00481, coefficient descends 0.00234, opt cycle consuming time=0.021.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=470, current object value=0.00481, coefficient descends 0.00234, opt cycle consuming time=0.021.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=471, current object value=0.00481, coefficient descends 0.00234, opt cycle consuming time=0.020.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=472, current object value=0.00481, coefficient descends 0.00234, opt cycle consuming time=0.020.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=473, current object value=0.00481, coefficient descends 0.00234, opt cycle consuming time=0.022.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=474, current object value=0.00480, coefficient descends 0.00234, opt cycle consuming time=0.021.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=475, current object value=0.00480, coefficient descends 0.00234, opt cycle consuming time=0.021.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=476, current object value=0.00480, coefficient descends 0.00234, opt cycle consuming time=0.021.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=477, current object value=0.00480, coefficient descends 0.00234, opt cycle consuming time=0.020.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=478, current object value=0.00480, coefficient descends 0.00234, opt cycle consuming time=0.021.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=479, current object value=0.00480, coefficient descends 0.00234, opt cycle consuming time=0.021.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=480, current object value=0.00480, coefficient descends 0.00234, opt cycle consuming time=0.022.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=481, current object value=0.00480, coefficient descends 0.00234, opt cycle consuming time=0.022.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=482, current object value=0.00480, coefficient descends 0.00234, opt cycle consuming time=0.021.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=483, current object value=0.00480, coefficient descends 0.00234, opt cycle consuming time=0.021.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=484, current object value=0.00480, coefficient descends 0.00234, opt cycle consuming time=0.020.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=485, current object value=0.00480, coefficient descends 0.00234, opt cycle consuming time=0.020.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=486, current object value=0.00480, coefficient descends 0.00234, opt cycle consuming time=0.019.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=487, current object value=0.00480, coefficient descends 0.00234, opt cycle consuming time=0.021.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=488, current object value=0.00480, coefficient descends 0.00234, opt cycle consuming time=0.021.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=489, current object value=0.00480, coefficient descends 0.00234, opt cycle consuming time=0.021.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=490, current object value=0.00480, coefficient descends 0.00234, opt cycle consuming time=0.021.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=491, current object value=0.00480, coefficient descends 0.00234, opt cycle consuming time=0.021.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=492, current object value=0.00480, coefficient descends 0.00234, opt cycle consuming time=0.021.
+11/26/2019 14:01:48 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:48 INFO 	Optimization step index=493, current object value=0.00480, coefficient descends 0.00234, opt cycle consuming time=0.022.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=494, current object value=0.00480, coefficient descends 0.00233, opt cycle consuming time=0.022.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=495, current object value=0.00480, coefficient descends 0.00233, opt cycle consuming time=0.020.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=496, current object value=0.00480, coefficient descends 0.00233, opt cycle consuming time=0.020.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=497, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.021.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=498, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.021.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=499, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.021.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=500, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.021.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=501, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.021.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=502, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.018.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=503, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.019.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=504, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.017.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=505, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.017.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=506, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.018.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=507, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.017.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=508, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.017.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=509, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.017.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=510, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.021.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=511, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.022.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=512, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.020.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=513, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.021.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=514, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.022.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=515, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.020.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=516, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.021.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=517, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.021.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=518, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.020.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=519, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.022.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=520, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.021.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=521, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.021.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=522, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.020.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=523, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.021.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=524, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.020.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=525, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.020.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=526, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.020.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=527, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.020.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=528, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.019.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=529, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.019.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=530, current object value=0.00479, coefficient descends 0.00233, opt cycle consuming time=0.020.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=531, current object value=0.00479, coefficient descends 0.00117, opt cycle consuming time=0.044.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization step index=532, current object value=0.00479, coefficient descends 0.00004, opt cycle consuming time=0.079.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 14:01:49 INFO 	Optimization process ends successfully.

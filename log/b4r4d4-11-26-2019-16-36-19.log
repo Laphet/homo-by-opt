@@ -1,0 +1,14 @@
+11/26/2019 16:36:19 INFO 	Go Go Go!
+11/26/2019 16:36:20 INFO 	Add a homogenized solution reference.
+11/26/2019 16:36:20 INFO 	Add a homogenized solution reference.
+11/26/2019 16:36:20 INFO 	Add a homogenized solution reference.
+11/26/2019 16:36:20 INFO 	Add a homogenized solution reference.
+11/26/2019 16:36:27 INFO 	Optimization step index=0, current object value=0.00511, current gradient=0.04494,opt cycle consuming time=6.378.
+11/26/2019 16:36:43 INFO 		Projection performed, 6.25% elems have been shifted.
+11/26/2019 16:36:43 INFO 	Optimization step index=1, current object value=0.00390, current gradient=0.03734,opt cycle consuming time=16.871.
+11/26/2019 16:36:55 INFO 		Projection performed, 31.25% elems have been shifted.
+11/26/2019 16:36:55 INFO 	Optimization step index=2, current object value=0.00337, current gradient=0.03081,opt cycle consuming time=11.616.
+11/26/2019 16:37:10 INFO 		Projection performed, 43.75% elems have been shifted.
+11/26/2019 16:37:10 INFO 	Optimization step index=3, current object value=0.00309, current gradient=0.02737,opt cycle consuming time=15.330.
+11/26/2019 16:37:27 INFO 		Projection performed, 50.00% elems have been shifted.
+11/26/2019 16:37:27 INFO 	Optimization step index=4, current object value=0.00293, current gradient=0.02561,opt cycle consuming time=16.200.

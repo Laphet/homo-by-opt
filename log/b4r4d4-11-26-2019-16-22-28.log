@@ -1,0 +1,51 @@
+11/26/2019 16:22:28 INFO 	Go Go Go!
+11/26/2019 16:22:29 INFO 	Add a homogenized solution reference.
+11/26/2019 16:22:29 INFO 	Add a homogenized solution reference.
+11/26/2019 16:22:29 INFO 	Add a homogenized solution reference.
+11/26/2019 16:22:29 INFO 	Add a homogenized solution reference.
+11/26/2019 16:29:18 INFO 	Optimization step index=0, current object value=0.00549, current gradient=0.04009,opt cycle consuming time=405.283.
+11/26/2019 16:29:44 INFO 	Optimization step index=1, current object value=0.00437, current gradient=0.03474,opt cycle consuming time=13.376.
+11/26/2019 16:29:49 INFO 		Projection performed, 25.00% elems have been shifted.
+11/26/2019 16:29:50 INFO 	Optimization step index=2, current object value=0.00379, current gradient=0.02984,opt cycle consuming time=5.456.
+11/26/2019 16:30:16 INFO 		Projection performed, 25.00% elems have been shifted.
+11/26/2019 16:30:16 INFO 	Optimization step index=3, current object value=0.00344, current gradient=0.02680,opt cycle consuming time=26.637.
+11/26/2019 16:30:21 INFO 		Projection performed, 37.50% elems have been shifted.
+11/26/2019 16:30:21 INFO 	Optimization step index=4, current object value=0.00319, current gradient=0.02480,opt cycle consuming time=4.789.
+11/26/2019 16:30:26 INFO 		Projection performed, 50.00% elems have been shifted.
+11/26/2019 16:30:26 INFO 	Optimization step index=5, current object value=0.00301, current gradient=0.02334,opt cycle consuming time=5.280.
+11/26/2019 16:30:30 INFO 		Projection performed, 68.75% elems have been shifted.
+11/26/2019 16:30:30 INFO 	Optimization step index=6, current object value=0.00289, current gradient=0.02230,opt cycle consuming time=3.884.
+11/26/2019 16:30:34 INFO 		Projection performed, 75.00% elems have been shifted.
+11/26/2019 16:30:34 INFO 	Optimization step index=7, current object value=0.00283, current gradient=0.02158,opt cycle consuming time=4.202.
+11/26/2019 16:30:39 INFO 		Projection performed, 75.00% elems have been shifted.
+11/26/2019 16:30:39 INFO 	Optimization step index=8, current object value=0.00277, current gradient=0.02112,opt cycle consuming time=4.282.
+11/26/2019 16:30:42 INFO 		Projection performed, 75.00% elems have been shifted.
+11/26/2019 16:30:43 INFO 	Optimization step index=9, current object value=0.00272, current gradient=0.02076,opt cycle consuming time=3.912.
+11/26/2019 16:30:46 INFO 		Projection performed, 75.00% elems have been shifted.
+11/26/2019 16:30:47 INFO 	Optimization step index=10, current object value=0.00268, current gradient=0.02043,opt cycle consuming time=3.986.
+11/26/2019 16:30:56 INFO 		Projection performed, 75.00% elems have been shifted.
+11/26/2019 16:30:56 INFO 	Optimization step index=11, current object value=0.00265, current gradient=0.02015,opt cycle consuming time=9.982.
+11/26/2019 16:31:52 INFO 		Projection performed, 75.00% elems have been shifted.
+11/26/2019 16:31:52 INFO 	Optimization step index=12, current object value=0.00262, current gradient=0.01994,opt cycle consuming time=55.512.
+11/26/2019 16:31:56 INFO 		Projection performed, 81.25% elems have been shifted.
+11/26/2019 16:31:56 INFO 	Optimization step index=13, current object value=0.00259, current gradient=0.01974,opt cycle consuming time=4.388.
+11/26/2019 16:32:00 INFO 		Projection performed, 87.50% elems have been shifted.
+11/26/2019 16:32:00 INFO 	Optimization step index=14, current object value=0.00257, current gradient=0.01956,opt cycle consuming time=3.377.
+11/26/2019 16:32:04 INFO 		Projection performed, 87.50% elems have been shifted.
+11/26/2019 16:32:04 INFO 	Optimization step index=15, current object value=0.00256, current gradient=0.01944,opt cycle consuming time=4.072.
+11/26/2019 16:32:07 INFO 		Projection performed, 87.50% elems have been shifted.
+11/26/2019 16:32:07 INFO 	Optimization step index=16, current object value=0.00255, current gradient=0.01933,opt cycle consuming time=2.887.
+11/26/2019 16:32:11 INFO 		Projection performed, 87.50% elems have been shifted.
+11/26/2019 16:32:11 INFO 	Optimization step index=17, current object value=0.00254, current gradient=0.01923,opt cycle consuming time=4.013.
+11/26/2019 16:32:14 INFO 		Projection performed, 87.50% elems have been shifted.
+11/26/2019 16:32:14 INFO 	Optimization step index=18, current object value=0.00253, current gradient=0.01915,opt cycle consuming time=3.113.
+11/26/2019 16:32:17 INFO 		Projection performed, 87.50% elems have been shifted.
+11/26/2019 16:32:17 INFO 	Optimization step index=19, current object value=0.00252, current gradient=0.01908,opt cycle consuming time=3.112.
+11/26/2019 16:32:20 INFO 		Projection performed, 87.50% elems have been shifted.
+11/26/2019 16:32:20 INFO 	Optimization step index=20, current object value=0.00251, current gradient=0.01902,opt cycle consuming time=3.139.
+11/26/2019 16:32:22 INFO 		Projection performed, 87.50% elems have been shifted.
+11/26/2019 16:32:22 INFO 	Optimization step index=21, current object value=0.00250, current gradient=0.01896,opt cycle consuming time=2.394.
+11/26/2019 16:32:25 INFO 		Projection performed, 93.75% elems have been shifted.
+11/26/2019 16:32:25 INFO 	Optimization step index=22, current object value=0.00250, current gradient=0.01891,opt cycle consuming time=2.637.
+11/26/2019 16:32:29 INFO 		Projection performed, 100.00% elems have been shifted.
+11/26/2019 16:32:29 INFO 	Optimization step index=23, current object value=0.00249, current gradient=0.01888,opt cycle consuming time=4.130.
